@@ -185,3 +185,11 @@ CSS to be added in order to use these magic features:
 }
 
 ```
+
+### Improving animating performance
+
+There are very few CSS properties that can be animated without constantly triggering repaints for every frame, namely **opacity** and **transform**. We minimize the amount of repaints (and work that your browser has to do) by sticking to only changing these two properties during the animation.
+- Source: http://tobiasahlin.com/blog/how-to-animate-box-shadow/
+
+Hint: Try using pseudo-elements and opacity.
+

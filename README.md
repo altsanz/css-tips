@@ -4,6 +4,8 @@ Those tips that I find useful to keep bookmarked
 
 ## Equal column heights
 
+*Disclaimer: Better use Flexbox if possible*
+
 CSS tools for Bootstrap 3.
 
 Extracted from http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
